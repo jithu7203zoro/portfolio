@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('about',views.AboutAPI.as_view()),
     path('education',views.EducationAPI.as_view()),
+    path('project',views.ProjectAPI.as_view()),
 
 ]

@@ -21,5 +21,9 @@ class ProjectAPI(View):
     def get(self,request):
         data=[
 
-            {'id':'103','projectname':'PORTFOLIO','description':'WOWW','technologies':'victus','duration':'2hr','liveurl':''}
+            {'id':'103','projectname':'PORTFOLIO','description':'WOWW','technologies':'victus','duration':'2hr','liveurl':'https://github.com/jithu7203zoro/portfolio.git'}
+
         ]
+
+        return JsonResponse(data,safe=False)
+
